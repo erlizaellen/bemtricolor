@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page do Projeto</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <img src="./bemtricolor-removebg-preview.png" alt="Logo Bem Tricolor" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#projeto">Projeto</a></li>
+                    <li><a href="#voluntario">Cadastrar-se</a></li>
+                    <li><a href="#parceiros">Parceiros</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="slider-container">
+            <div class="slider">
+                <img src="./abraçodobem.JPG" alt="Imagem 1">
+                <img src="./calçandovidas.jpeg" alt="Imagem 2">
+                <img src="./leãotech.jpeg" alt="Imagem 3">
+                <!-- Duplicando as imagens -->
+                <img src="./abraçodobem.JPG" alt="Imagem 1">
+                <img src="./calçandovidas.jpeg" alt="Imagem 2">
+                <img src="./leãotech.jpeg" alt="Imagem 3">
+            </div>
+        </div>
+        <div class="slider">
+            <img src="./abraçodobem.JPG" alt="Imagem 1">
+            <img src="./calçandovidas.jpeg" alt="Imagem 2">
+            <img src="./leãotech.jpeg" alt="Imagem 3">
+            <!-- Duplicando as imagens -->
+            <img src="./abraçodobem.JPG" alt="Imagem 1">
+            <img src="./calçandovidas.jpeg" alt="Imagem 2">
+            <img src="./leãotech.jpeg" alt="Imagem 3">
+        </div>
+        </div>
+        <div class="slider">
+            <img src="./abraçodobem.JPG" alt="Imagem 1">
+            <img src="./calçandovidas.jpeg" alt="Imagem 2">
+            <img src="./leãotech.jpeg" alt="Imagem 3">
+            <!-- Duplicando as imagens -->
+            <img src="./abraçodobem.JPG" alt="Imagem 1">
+            <img src="./calçandovidas.jpeg" alt="Imagem 2">
+            <img src="./leãotech.jpeg" alt="Imagem 3">
+        </div>
+        </div>
+        <div class="slider">
+            <img src="./abraçodobem.JPG" alt="Imagem 1">
+            <img src="./calçandovidas.jpeg" alt="Imagem 2">
+            <img src="./leãotech.jpeg" alt="Imagem 3">
+            <!-- Duplicando as imagens -->
+            <img src="./abraçodobem.JPG" alt="Imagem 1">
+            <img src="./calçandovidas.jpeg" alt="Imagem 2">
+            <img src="./leãotech.jpeg" alt="Imagem 3">
+        </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+
+    <!-- Seção Projeto -->
+    <section id="projeto">
+        <div class="caixa-projeto">
+            <div class="texto-projeto">
+                <h2>Projeto</h2>
+                <p>O projeto Bem Tricolor é uma iniciativa dedicada a transformar a vida de pessoas carentes através de ações sociais e comunitárias.<br> Fundado com o objetivo de promover a solidariedade e a inclusão social, o Bem Tricolor realiza diversos
+                    projetos ao longo do ano, buscando sempre oferecer apoio e oportunidades para aqueles que mais precisam.</p>
+            </div>
+            <img src="./jubaestela-removebg-preview.png" alt="Imagem do Projeto" class="imagem-projeto">
+        </div>
+    </section>
+
+    <!-- Seção Voluntário -->
+    <div class="container">
+        <section id="voluntario">
+            <h2>Seja um Voluntário</h2>
+            <form action="#" method="POST">
+                <div class="input-group">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" required placeholder="Digite seu nome">
+                </div>
+
+                <div class="input-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" required placeholder="Digite seu e-mail">
+                </div>
+
+                <div class="input-group">
+                    <label for="numero">Número de WhatsApp</label>
+                    <input type="tel" id="numero" name="numero" required placeholder="Digite seu número com DDD" pattern="[0-9]{2}[0-9]{9}" title="Informe um número válido com DDD">
+                </div>
+
+                <button type="submit">Cadastrar</button>
+            </form>
+        </section>
+    </div>
+
+
+    <section id="parceiros">
+        <div>
+            <h2>Parceiros</h2>
+            <div class="parceiros-container">
+                <img src="./digitalcollegeparceiro.png" alt="Parceiro 1">
+                <img src="./fortalezaparceiro.png" alt="Parceiro 2">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Produzido por Erliza Ellen. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
